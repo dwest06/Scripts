@@ -1,10 +1,1 @@
-wget \
-     --recursive \
-     --no-clobber \
-     --page-requisites \
-     --html-extension \
-     --convert-links \
-     --restrict-file-names=windows \
-     --domains website.org \
-     --no-parent \
-	$1
+wget -r -l inf -k "Name of webpage"
